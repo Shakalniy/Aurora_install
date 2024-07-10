@@ -1,2 +1,2 @@
-# Aurora_install
-Гайд по установке Aurora SDK
+# Гайд по установке Aurora SDK
+## Установка Platform SDK + Flutter Aurora

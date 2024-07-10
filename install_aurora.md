@@ -1,5 +1,17 @@
 # Установка Platform SDK + Flutter Aurora на Linux (Ubuntu) или WSL
 
+## Установка Aurora CLI
+
+#### Установка
+```shell
+sudo snap install aurora-cli --devmode
+```
+
+#### Установка дополнительных зависимостей
+```shell
+sudo apt update && sudo apt install curl git git-lfs unzip bzip2
+```
+
 ## Установка Aurora PSDK
 ```shell
 aurora-cli psdk --install

@@ -104,10 +104,11 @@ https://developer.auroraos.ru/doc/software_development/guides/package_signing#pu
 ```shell
 aurora_psdk rpmsign-external sign --key <ПУТЬ к КЛЮЧУ> --cert <ПУТЬ к СЕРТИФИКАТУ> <ПУТЬ К ПАКЕТУ .rpm>
 ```
+Пакет лежит в <Имя корневой папки проекта>/build/aurora/psdk_5.0.0.60/aurora-arm/release/RPMS/com.example.<название проекта>-0.1.0-1.armv7hl.rpm
 
 #### Копирование приложения в смартфон
 ```shell
-scp $PATH_TO_APP  defaultuser@192.168.2.15:/home/defaultuser/Downloads
+scp <ПУТЬ К ПАКЕТУ .rpm>  defaultuser@192.168.2.15:/home/defaultuser/Downloads
 ```
 
 #### Подключение к смартфону
